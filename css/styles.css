@@ -1,0 +1,75 @@
+main {
+	background: beige;
+}
+header {
+	background-color: #376389;
+}
+nav {
+	background-color: antiquewhite;
+}
+.ingredients-images img {
+  border-radius: 50%;
+  padding: 5%;
+}
+.email-list-wrapper {
+	background-color: aliceblue;
+    height: 1.5rem;
+    text-align: center;
+    padding: .5em;
+}
+.email-list-wrapper a {
+	text-decoration: none;
+	color: cadetblue;
+}
+.ingredients-description {
+	padding: 10%;
+}
+#hamburger {
+	float: right;
+}
+.littl-baks-logo-main h1 {
+	color: darkslategray;
+}
+.bar-1, .bar-2, .bar-3 {
+	width: 25px;
+    height: 2px;
+    background-color: darkslategray;
+    margin: 5px 0;
+}
+.lets-get-started {
+	background-color: white;
+    color: darkslategray;
+    text-align: center;
+    margin: 0;
+}
+#fixed-nav-bar {
+	display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#fixed-nav-bar> ul {
+	display: none;
+}
+.mobile-background {
+	background-image: url(../images/hand-opening-paper-with-tea.jpeg);
+	background-position: center;
+	background-size: cover;
+	height: 15em;
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.mobile-background p {
+	margin: 0;
+	color: darkslategray;
+}
+.mobile-background button {
+	background-color: #ffa983;
+    border: none;
+    margin-top: 1em;
+}
+button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
