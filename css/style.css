@@ -1,0 +1,89 @@
+body {
+  margin: auto;
+}
+
+header {
+  background-image: url(../images/hand-opening-paper-with-tea.jpeg);
+  background-position: cover;
+  background-size: cover;
+  height: 900px;
+  margin: 0;
+}
+.nav-list-items li{
+  list-style: none;
+  float: right;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+
+}
+
+.logo-name-button {
+  display: flex;
+  justify-content: center;
+  padding: 450px;
+
+}
+.container {
+  height: 900px;
+  margin: auto;
+  background: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ingredients-descriptions {
+  background: red;
+  width: 400px;
+  height: 500px;
+}
+
+.ingredients-images img {
+  border-radius: 50%;
+}
+
+#section-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-name-button button {
+  background-color: purple;
+  color: yellow;
+}
+
+#fixed-nav-bar {
+  background-color: cyan;
+}
+#fixed-nav-bar::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
