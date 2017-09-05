@@ -21,31 +21,42 @@
           <h1> <span class="strikethrough"> LITTL B&Auml;CKS</span></h1>
         </div>
       
-      <div id="hamburger">
+      <!--<button id="hamburger">
         <div class="bar-1"></div>
         <div class="bar-2"></div>
         <div class="bar-3"></div>
-      </div>
+
+      </button>-->
+      <button class="hamburger">&#9776;</button>
+      <div class="menu">
         <ul>
-          <li><a href="#">Little Baks Shop</a></li>
-          <li><a href="#">About US</a></li>
-          <li><a href="#">Our Products</a></li>
-          <li><a href="#">Subscribe</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="subscribe.html">Subscribe</a></li>
+          <li><a href="support.html">support</a></li>
+          <li><a href="shop.html">Box of the week</a></li>          
         </ul>
       </div>
+      <button class="cross">&#735;</button>
+</header>
     </nav>
-  
-    <div class="email-list-wrapper">
-      <a href="#"> Sign up for the email List > </a>
-    </div>
-  
   </header>
+   
+    <div class="email-list-wrapper">
+      <a href="subscribe.html"> Sign up for the email List > </a>
+    </div>
     <div class="mobile-background">
+      <div class="larger-mobile-text">
+        <p> we customize for you!</p>
+        <p>all your beauty needs</p>
+        <p>We got you</p>
+      </div>
       <div class="center-mobile-background">
         <p>Naturally.</p>
         <p>Beautifully.</p>
         <p>Hand Made.</p>
-        <button>Learn More</button>
+        <a href="shop.html"> <button>Learn More</button> </a>
       </div>
     </div>
 
@@ -57,10 +68,10 @@
     </div>
     <div> <h2>We don't Lye!</h2> </div>
     <div class="ingredients-images" >
-        <img src="images/assorted-soaps.jpg" alt="placeholder-image" height="300" width="300">
+        <img src="images/assorted-soaps.jpg" alt="placeholder-image" >
       </div>
      <div class="ingredients-descriptions">
-        <p>Our lye making process uses an ancient Babylonian technique by boiling hard wood ashes and "soft water". Check out more info on our Lye making process in the <a href="#">About</a> section</p>
+        <p>Our lye making process uses an ancient Babylonian technique by boiling hard wood ashes and "soft water". Check out more info on our Lye making process in the <a href="about.html">About</a> section</p>
       </div>     
     </section>
 <!--section 2 contents stuff-->
@@ -68,7 +79,7 @@
     <section id="section-two">
       <div><h2>Coconut butter is life</h2></div>
       <div class="ingredients-images">
-        <img src="images/oils-and-flowers.jpeg" alt="" height="300" width="300">
+        <img src="images/oils-and-flowers.jpeg" > 
       </div>
       <div class="ingredients-descriptions">
         <p>Choose any base for the lotions or body butters. Coconut oil? We got it. Avocado mixed with shea? Okay. Aloe and caster with a little bit of bee's wax? Oh, you fancy now!</p>
@@ -79,13 +90,13 @@
     <section id="section-three">
     <div><h2>Aromas</h2></div>
       <div class="ingredients-images">
-        <img src="images/oil-morter-pistol-hand.jpg" alt="" height="300" width="300">
+        <img src="images/oil-morter-pistol-hand.jpg" >
       </div>
       <div class="ingredients-descriptions">
         <p>You can mix and match any combination of Essential Oils and natural fragrance to customize your base.</p>
         <h4><span class="highlight">This weeks favorite combination: Lavender, Bergamont, and clove</span></h4>
         <h4><span class="lowlight">Last Weeks combination: Sugar, Spice, and everything nice.</span></h4>
-        <button>Popular <span class="strikethrough"> Littl B&auml;cks</span> Combinations!</button>
+        <a href="shop.html"> <button>Popular <span class="strikethrough"> Littl B&auml;cks</span> Combinations!</button> </a>
       </div>
     </section>
 <!--section 4 content stuff-->
@@ -93,11 +104,11 @@
     <section id="section-four">
      <div><h2>Choose your Box</h2></div>
       <div class="ingredients-images">
-        <img src="images/gift-box-with-loufa.jpg" alt="" height="300" width="300">
+        <img src="images/gift-box-with-loufa.jpg" >
       </div>
       <div class="ingredients-descriptions">
         <p>Put as much or as little in your Littl B&auml;cks as you want.</p>
-        <button>Check out our Gift B&auml;cks!</button>
+        <a href="shop.html"><button>Check out our Gift B&auml;cks!</button></a>
       </div>
     </section>
 <!--section 5 content stuff-->
@@ -108,7 +119,7 @@
         <h4>@littleBacks #MadeForUS</h4>
       </div>
       <div class="footer-images">
-        <img src="images/diverse-women.jpg" alt="" height="300" width="300">
+        <img src="images/diverse-women.jpg" >
       </div>
       <div class="main-page-closer">
         <p>We're a small team of dedicated individuals who are passionate about what we do!</p>
@@ -116,12 +127,12 @@
       </div>
       <div class="footer-navigation">
         <ul>
-          <li>About</li>
-          <li>Blog </li>
-          <li>Email List</li>
-          <li>Products</li>
-          <li>Join the team!</li>
-          <li>Support</li>
+          <li> <a href="about.html">About</a></li>
+          <li> <a href="blog.html">Blog</a> </li>
+          <li> <a href="shop.html">shop</a></li>
+          <li> <a href="subscribe.html">subscripe</a></li>
+          <li> <a href="support.html">Support</a></li>
+          <li> <a href="JoinUS.html">Join the team</a></li>
         </ul>
       </div>      
     </section>
@@ -130,7 +141,8 @@
       </div>
 
   </main>
- 
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
 
 </body>
 </html>

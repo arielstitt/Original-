@@ -20,10 +20,18 @@ main p {
 .strikethrough {
 	text-decoration: line-through; 
 }
+.larger-mobile-text {
+	display: none;
+}
 .ingredients-images img {
  
   padding: 5%;
   border-radius: 40%;
+  height: 15em;
+  width: 10em; 
+}
+.promo {
+	color: darkcyan;
 }
 .email-list-wrapper {
 	background-color: aliceblue;
@@ -39,7 +47,7 @@ main p {
 	padding: 5%;
 }
 .ingredients-descriptions a {
-	color: black;
+	color: darkcyan;
 }
 .ingredients-descriptions p {
 	border: 1px solid chocolate;
@@ -49,17 +57,24 @@ main p {
 	background-color: aliceblue;
 	padding: 10px 80px 10px 80px;
 }
-#hamburger {
+.hamburger {
 	float: right;
+	color: darkslategray;
+	border: none;
+	background:none;
 }
 .littl-baks-logo-main h1 {
 	color: darkslategray;
 }
-.bar-1, .bar-2, .bar-3 {
+/*.bar-1, .bar-2, .bar-3 {
 	width: 25px;
     height: 2px;
     background-color: darkslategray;
-    margin: 5px 0;
+    margin: 5px 0;*/
+}
+a {
+	color: darkcyan;
+}
 }
 .lets-get-started {
 	background-color: antiquewhite;
@@ -115,7 +130,7 @@ main p {
 }
 
 #footer {
-	background-image: url(../images/pink-flowers.jpg);
+	background-image: url(../images/orange-flowers.jpg);
 	background-size: cover;
 	margin: 0;
 	color: white;
@@ -123,6 +138,8 @@ main p {
 }
 .footer-images img{
 	border-radius: 50%;
+	height: 14em;
+	width: 10em;
 }
 
 button:hover {
@@ -149,5 +166,84 @@ button:hover {
 #copywrite, p {
 	font-size: 15px;
 }
+cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  }
+
+.about-html {
+	background-color: antiquewhite;
+}
+.join-us-html {
+	background-color: aquamarine;
+}
+.shop-html {
+	background-color: burlywood;
+}
+.subscribe-html {
+	background-color: darksalmon;
+}
+.blog-html {
+	background-color: darkkhaki;
+}
+.support-html {
+	background-color: deepskyblue;
+}
+
 
 /* --Media Quiries*/
+
+@media (min-width: 700px) {
+	body {
+		font-size: 35px;
+		text-align: center;
+	}
+	body p {
+		font-size: 50px;
+	}
+	.ingredients-images img {
+		height: 10em;
+		width: 10em;
+		float: left;
+	}
+	.ingredients-descriptions p {
+		border: none;
+	}
+	.highlight, .lowlight {
+		font-size: 1em;
+	}
+	.mobile-background {
+		background-image: url(../images/hand-opening-paper-with-tea.jpeg);
+	}
+	.center-mobile-background p {
+		visibility: none;
+	}
+	.larger-mobile-text {
+	display: 
+}
+@media (min-width: 1000px) {
+	.mobile-background {
+		height: 
+	}
+	#hamburger {
+		display: hidden;
+	}
+
+}
+
+
+
+
+
+
+
